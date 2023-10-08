@@ -2,10 +2,15 @@ site_name: My Docs
 
 theme:
   name: material
+  features:
+    - navigation.tabs
 
 markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
 
-
+nav:
+  - Home: index.md
+  - DSA:
+    - Intro: dsa/index.md
